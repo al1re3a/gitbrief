@@ -1,5 +1,7 @@
 # GitBrief
 
+[![CI](https://github.com/al1re3a/gitbrief/actions/workflows/ci.yml/badge.svg)](https://github.com/al1re3a/gitbrief/actions/workflows/ci.yml) [![MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 **A useful PR description before the model call.**
 
 GitBrief turns a unified Git diff into a deterministic Markdown change map: files, categories, line counts, stable fingerprint, and review notes for large, untested, dependency, auth, or workflow changes.
