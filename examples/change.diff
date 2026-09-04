@@ -1,0 +1,13 @@
+diff --git a/src/auth.go b/src/auth.go
+--- a/src/auth.go
++++ b/src/auth.go
+@@ -10,1 +10,3 @@
+-return nil
++if token == "" { return ErrUnauthorized }
++return verify(token)
++
+diff --git a/src/auth_test.go b/src/auth_test.go
+--- a/src/auth_test.go
++++ b/src/auth_test.go
+@@ -1,0 +1,1 @@
++func TestEmptyToken(t *testing.T) {}
